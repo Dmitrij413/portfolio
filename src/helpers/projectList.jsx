@@ -16,33 +16,41 @@ const projects = [
 		title: 'Gaming streaming portal',
 		skills: 'React, Node.js',
 		img: project01,
+		imgBig: project01Big,
 		gitHubLink: 'https://github.com'
 	},
 	{
 		title: 'Video service',
 		skills: 'React, PHP, MongoDB',
 		img: project02,
+		imgBig: project02Big,
 		gitHubLink: 'https://github.com'
 	},
 	{
 		title: 'Video portal',
 		skills: 'Vue JS, Node.js, MongoDB',
 		img: project03,
+		imgBig: project03Big,
 		gitHubLink: 'https://github.com'
 	},
 	{
 		title: 'Dating app',
 		skills: 'React Native',
-		img: project04
+		img: project04,
+		imgBig: project04Big
 	},
 	{
 		title: 'Landing',
 		skills: 'HTML, SCSS, JS',
-		img: project05
+		img: project05,
+		imgBig: project05Big,
 	},
 	{
 		title: 'Gaming community',
 		skills: 'React, PHP, MySQL',
-		img: project06
+		img: project06,
+		imgBig: project06Big,
 	},
 ]
+
+export {projects}
