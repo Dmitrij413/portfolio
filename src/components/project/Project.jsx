@@ -1,14 +1,14 @@
+import { NavLink } from "react-router-dom";
 
-const Project = ({title, img}) => {
-	return ( 
-		<>
+const Project = ({title, img, index}) => {
+	return (
+		<NavLink to={`/project/${index}`}>
 			<li className="project">
-				<a href="./project-page.html">
 				<img src={img} alt={title} className="project__img" />
 				<h3 className="project__title">{title}</h3>
-				</a>
 			</li>
-		</>
+		</NavLink>
+		
 	 );
 }
  
